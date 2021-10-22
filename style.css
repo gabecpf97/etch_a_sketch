@@ -1,3 +1,38 @@
 body {
     background-color: #4641416c;
 }
+
+h1 {
+    text-align: center;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    border: 10px solid #555;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.filled {
+    background-color: black !important;
+}
+
+.butt_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.butt {
+    padding: 20px 40px;
+}
