@@ -23,12 +23,9 @@ h1 {
     border: 1px solid black;
 }
 
-.filled {
-    background-color: black !important;
-}
-
 .butt_container {
     display: flex;
+    gap: 30px;
     justify-content: center;
     padding-bottom: 40px;
 }
